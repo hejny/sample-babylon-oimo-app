@@ -1,6 +1,6 @@
-# App
+# 3D App
 
-
+This is a simple boilerplate app showing 3D, VR, and Physics on the web. It is written in Babylon.js and Oimo.js. 
 
 ## Develop
 
@@ -15,4 +15,4 @@ npm install
 
 ```bash
 npm run
-```a
+```
