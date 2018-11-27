@@ -5,6 +5,7 @@
   "private": false,
   "scripts": {
     "start": "react-scripts-ts start",
+    "expose": "lt --port 3000 --subdomain=sample-babylon-oimo-app",
     "build": "react-scripts-ts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -14,6 +15,8 @@
   },
   "dependencies": {
     "babylonjs": "^3.2.0",
+    "cannon": "^0.6.2",
+    "earcut": "^2.1.3",
     "oimo": "^1.0.9",
     "onchange": "^5.1.2",
     "react-scripts-ts": "^3.1.0"
