@@ -1,0 +1,17 @@
+{
+    "autokill": true,
+    "terminals": [
+        {
+            "name": "start",
+            "command": "npm start"
+        },
+        {
+            "name": "expose",
+            "command": "npm run test-expose"
+        },
+        {
+            "name": "prettier-watch",
+            "command": "npm run prettier-watch"
+        }
+    ]
+}
